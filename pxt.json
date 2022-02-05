@@ -1,0 +1,28 @@
+{
+    "name": "led",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "ezstartkit": "github:iCShopMgr/EZ_Start_Kit_for_MakeCode#dfdd66a94419ea8022125d986a23da4834c16f66",
+        "magicbit": "github:emakefun/pxt-magicbit#ee1b367329051c8b117ca4deb5f3a467e8d12720"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
